@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch --coverage",
+    "testAuto": "jest",
     "lint": "eslint --ext .ts,.tsx ./src/app",
     "fix": "npm run import:fix && npm run format && npm run lint:fix",
     "lint:fix": "eslint --fix 'src/app/**/*.{ts,tsx}'",
