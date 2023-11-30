@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageコンポーネントSnapshot snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    articles
+  </div>
+</DocumentFragment>
+`;
