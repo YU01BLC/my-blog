@@ -20,6 +20,8 @@ module.exports = {
     'prettier',
     'next/core-web-vitals',
   ],
+  ignorePatterns: ["/home/runner/work/**/*"],
+
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
