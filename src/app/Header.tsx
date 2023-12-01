@@ -6,13 +6,13 @@ import Typography from '@mui/material/Typography';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import BlogImage from '../../public/assets/blogIcon.png';
+import blogImage from '../../public/assets/blogIcon.png';
 
 export default function Header() {
   return (
     <AppBar position='relative'>
       <Toolbar sx={{ bgcolor: '#37474f', borderBottom: 'solid' }}>
-        <Image src={BlogImage} alt='blog icon' style={{ width: '32px', height: '32px', marginRight: '1em' }} />
+        <Image src={blogImage} alt='blog icon' style={{ width: '32px', height: '32px', marginRight: '1em' }} />
         <Box
           sx={{
             display: 'flex',
