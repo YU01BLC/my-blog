@@ -90,9 +90,9 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      #37474f
     )
-    rgb(var(--background-start-rgb));
+#37474f
 }
 
 a {
