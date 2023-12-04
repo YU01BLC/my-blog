@@ -17,10 +17,8 @@ module.exports = {
     // 'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'prettier',
     'next/core-web-vitals',
   ],
-  ignorePatterns: ["/home/runner/work/**/*"],
 
   parser: '@typescript-eslint/parser',
   parserOptions: {
