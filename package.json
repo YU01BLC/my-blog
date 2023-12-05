@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch --coverage",
+    "test": "jest --watch --updateSnapshot --coverage",
     "testAuto": "jest",
     "lint": "eslint --ext .ts,.tsx ./src/app",
     "fix": "npm run import:fix && npm run format && npm run lint:fix",
