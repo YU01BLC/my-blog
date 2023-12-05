@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page(Footer)コンポーネントSnapshot snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1uwdmzl"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    >
+      @2023 shincode
+    </p>
+  </div>
+</DocumentFragment>
+`;
