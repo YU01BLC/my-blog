@@ -24,15 +24,16 @@ exports[`DummyArticleコンポーネントSnapshot snapshot 1`] = `
         </span>
       </div>
     </div>
+    <img
+      alt="blog image"
+      class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+      height="500"
+      src="https://source.unsplash.com/collection/1346951/1000x500?sig=2"
+      width="100%"
+    />
     <div
       class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
     >
-      <img
-        alt="Paella dish"
-        class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-        height="194"
-        src="/assets/dummy-blog-image.jpg"
-      />
       <p
         class="MuiTypography-root MuiTypography-body1 css-136xlp0-MuiTypography-root"
       >
@@ -46,6 +47,21 @@ exports[`DummyArticleコンポーネントSnapshot snapshot 1`] = `
       >
         ※   記事投稿後ダミー記事は非表示となります。
       </p>
+      <div
+        class="MuiCardActions-root css-1rwjz6-MuiCardActions-root"
+      >
+        <div
+          aria-expanded="false"
+          aria-label="show more"
+          class="MuiBox-root css-d3fn1e"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+          >
+            続きを読む
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>

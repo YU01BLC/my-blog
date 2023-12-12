@@ -3,63 +3,11 @@
 exports[`PageコンポーネントSnapshot snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="MuiBox-root css-i3n67o"
+    class="MuiBox-root css-he2f3o"
     data-testid="article"
   >
     <div
-      class="MuiBox-root css-6gs9hh"
-    >
-      <div
-        class="MuiBox-root css-0"
-        data-testid="article-list"
-      >
-        <div
-          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
-        >
-          <div
-            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
-          >
-            <div
-              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
-            >
-              <span
-                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
-              >
-                記事タイトル
-              </span>
-              <span
-                class="MuiTypography-root MuiTypography-body1 MuiCardHeader-subheader css-nrdprl-MuiTypography-root"
-              >
-                2023/12/1
-              </span>
-            </div>
-          </div>
-          <div
-            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-          >
-            <a
-              href="/hoge"
-            >
-              <img
-                alt="Paella dish"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                height="100%"
-                src="https://source.unsplash.com/collection/1346951/1000x500?sig=2"
-                width="100%"
-              />
-            </a>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-136xlp0-MuiTypography-root"
-              data-testid="article-list--text"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quod maiores totam aperiam necessitatibus est, exercitationem architecto quibusdam accusamus maxime asperiores eaque adipisci itaque nemo, minus odio, alias dolor possimus!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="MuiBox-root css-0"
+      class="MuiBox-root css-1b420e2"
     >
       <div
         class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
@@ -83,15 +31,16 @@ exports[`PageコンポーネントSnapshot snapshot 1`] = `
             </span>
           </div>
         </div>
+        <img
+          alt="blog image"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+          height="500"
+          src="https://source.unsplash.com/collection/1346951/1000x500?sig=2"
+          width="100%"
+        />
         <div
           class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
         >
-          <img
-            alt="Paella dish"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="194"
-            src="/assets/dummy-blog-image.jpg"
-          />
           <p
             class="MuiTypography-root MuiTypography-body1 css-136xlp0-MuiTypography-root"
           >
@@ -105,7 +54,149 @@ exports[`PageコンポーネントSnapshot snapshot 1`] = `
           >
             ※   記事投稿後ダミー記事は非表示となります。
           </p>
+          <div
+            class="MuiCardActions-root css-1rwjz6-MuiCardActions-root"
+          >
+            <div
+              aria-expanded="false"
+              aria-label="show more"
+              class="MuiBox-root css-d3fn1e"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                続きを読む
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-8atqhb"
+    >
+      <div
+        class="MuiBox-root css-0"
+        data-testid="article-list"
+      >
+        <a
+          href="/hoge"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-5y2sye-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+                >
+                  記事タイトル: 1
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiCardHeader-subheader css-nrdprl-MuiTypography-root"
+                >
+                  2023/12/1
+                </span>
+              </div>
+            </div>
+            <img
+              alt="blog image: 1"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+              height="500"
+              src="https://source.unsplash.com/collection/1346951/1000x500?sig=1"
+            />
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-136xlp0-MuiTypography-root"
+                data-testid="article-list--text1"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quod maiores totam aperiam necessitatibus est, exercitationem architecto quibusdam accusamus maxime asperiores eaque adipisci itaque nemo, minus odio, alias dolor possimus!
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-5y2sye-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+                >
+                  記事タイトル: 2
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiCardHeader-subheader css-nrdprl-MuiTypography-root"
+                >
+                  2023/12/1
+                </span>
+              </div>
+            </div>
+            <img
+              alt="blog image: 2"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+              height="500"
+              src="https://source.unsplash.com/collection/1346951/1000x500?sig=2"
+            />
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-136xlp0-MuiTypography-root"
+                data-testid="article-list--text2"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quod maiores totam aperiam necessitatibus est, exercitationem architecto quibusdam accusamus maxime asperiores eaque adipisci itaque nemo, minus odio, alias dolor possimus!
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-5y2sye-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+                >
+                  記事タイトル: 3
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiCardHeader-subheader css-nrdprl-MuiTypography-root"
+                >
+                  2023/12/1
+                </span>
+              </div>
+            </div>
+            <img
+              alt="blog image: 3"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+              height="500"
+              src="https://source.unsplash.com/collection/1346951/1000x500?sig=3"
+            />
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-136xlp0-MuiTypography-root"
+                data-testid="article-list--text3"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quod maiores totam aperiam necessitatibus est, exercitationem architecto quibusdam accusamus maxime asperiores eaque adipisci itaque nemo, minus odio, alias dolor possimus!
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>

@@ -19,22 +19,33 @@ describe('ArticleListコンポーネント表示確認', () => {
 });
 
 describe('Cardコンポーネント表示確認', () => {
+  const cardData = [
+    { id: 1, title: '記事タイトル: 1', alt: 'blog image: 1', testId: 'article-list--text1' },
+    { id: 2, title: '記事タイトル: 2', alt: 'blog image: 2', testId: 'article-list--text2' },
+    { id: 3, title: '記事タイトル: 3', alt: 'blog image: 3', testId: 'article-list--text3' },
+  ];
   it('CardHeaderコンポーネントが表示されていること', () => {
     render(<ArticleList />);
-    // getByTitleで取得するとCSS FWの仕様上取得できない(title要素として表示されていない)
-    const cardElement = screen.getByText('記事タイトル');
-    expect(cardElement).toBeInTheDocument();
+    cardData.forEach((card) => {
+      // getByTitleで取得するとCSS FWの仕様上取得できない(title要素として表示されていない)
+      const cardElement = screen.getByText(card.title);
+      expect(cardElement).toBeInTheDocument();
+    });
   });
   it('CardMediaコンポーネントが表示されていること', () => {
     render(<ArticleList />);
-    // getByTitleで取得するとCSS FWの仕様上取得できない(title要素として表示されていない)
-    const cardElement = screen.getByAltText(/Paella dish/i);
-    expect(cardElement).toBeInTheDocument();
+    cardData.forEach((card) => {
+      // getByTitleで取得するとCSS FWの仕様上取得できない(title要素として表示されていない)
+      const cardElement = screen.getByAltText(card.alt);
+      expect(cardElement).toBeInTheDocument();
+    });
   });
   it('Typographyコンポーネントが表示されていること', () => {
     render(<ArticleList />);
-    const cardElement = screen.getByTestId('article-list--text');
-    expect(cardElement).toBeInTheDocument();
+    cardData.forEach((card) => {
+      const cardElement = screen.getByTestId(card.testId);
+      expect(cardElement).toBeInTheDocument();
+    });
   });
 });
 

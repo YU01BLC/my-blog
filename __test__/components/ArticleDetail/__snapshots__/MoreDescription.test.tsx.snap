@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreDescriptionコンポーネントSnapshot snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiCardActions-root css-1rwjz6-MuiCardActions-root"
+  >
+    <div
+      aria-expanded="false"
+      aria-label="show more"
+      class="MuiBox-root css-d3fn1e"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+      >
+        続きを読む
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

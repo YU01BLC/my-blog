@@ -14,8 +14,8 @@ describe('Pageコンポーネント表示確認', () => {
   it('テキスト「記事タイトル」が表示されること', () => {
     // Pageコンポーネントをレンダリング
     render(<Page />);
-    // 「記事タイトル」というテキストを含む要素を取得
-    const headElement = screen.getByText('記事タイトル');
+    // 「記事タイトル(dummy)」というテキストを含む要素を取得
+    const headElement = screen.getByText('記事タイトル(dummy)');
     // 取得した上記要素が画面上に存在することを確認
     expect(headElement).toBeInTheDocument();
   });
