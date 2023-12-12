@@ -1,16 +1,21 @@
+'use client';
+
+import { useMediaQuery } from '@mui/material';
 import Box from '@mui/material/Box';
-import React from 'react';
 import ArticleList from '../../app/components/ArticleList';
-import DummyArticle from '../../app/components/DummyArticle';
+import ArticlePreview from '../components/ArticlePreview';
 
 export default function Page() {
+  const testData = { id: 'testId' };
+  const mediaView: boolean = useMediaQuery('(min-width:1024px)');
+
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'space-between', margin: '2em' }} data-testid='article'>
-      <Box sx={{ width: '70%' }}>
-        <ArticleList />
+    <Box display={mediaView ? 'flex' : 'block'} justifyContent='space-between' margin='2em' data-testid='article'>
+      <Box width={mediaView ? '60%' : '100%'} marginBottom={mediaView ? '' : '2em'}>
+        <ArticlePreview params={testData} />
       </Box>
-      <Box>
-        <DummyArticle />
+      <Box width={mediaView ? '30%' : '100%'}>
+        <ArticleList />
       </Box>
     </Box>
   );

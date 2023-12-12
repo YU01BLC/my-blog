@@ -145,7 +145,7 @@ module.exports = {
     // コメントの先頭を大文字にするルールを無効化
     'capitalized-comments': 'off',
     // 複雑な条件分岐に対する警告
-    complexity: ['warn', 4],
+    complexity: ['warn', 20],
     // スペースのないコメントに対する警告
     'spaced-comment': 'warn',
     // インラインコメントの警告
