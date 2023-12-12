@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <Box sx={{ position: 'absolute', bottom: 0, width: '100%', borderTop: 'solid', padding: '1em' }}>
+    <Box sx={{ width: '100%', borderTop: 'solid', padding: '1em', marginTop: 'auto' }}>
       <Typography>@2023 shincode</Typography>
     </Box>
   );
